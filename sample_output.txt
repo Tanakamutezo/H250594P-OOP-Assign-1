@@ -1,0 +1,14 @@
+=== 1. Demonstration of Polymorphism Loop ===
+Withdrew $100.0 from SA-101. Remaining balance: $900.0
+End of month for SavingsAccount SA-101: Interest added $45.0. New balance: $945.0
+----------------------------------------------
+Withdrew $100.0 from CA-201. Remaining balance: $400.0
+End of month for CurrentAccount CA-201: Maintenance fee deducted $15.0. New balance: $385.0
+----------------------------------------------
+
+=== 2. Demonstration of Edge Cases ===
+[SavingsAccount] Initial Balance: $250.0
+Transaction Rejected for SA-102: Withdrawal would bring balance ($150.0) below minimum required balance ($200.0).
+
+[CurrentAccount] Initial Balance: $100.0
+Withdrew $250.0 from CA-202. Remaining balance: $-150.0
